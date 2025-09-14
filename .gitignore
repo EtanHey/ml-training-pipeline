@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# ML/Data
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+datasets/
+data/
+models/
+weights/
+checkpoints/
+experiments/runs/
+*.csv
+*.parquet
+
+# Logs
+*.log
+logs/
+tensorboard/
+wandb/
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+secrets/
+
+# Node/TypeScript
+node_modules/
+dist/
+*.js.map
+.npm
+.eslintcache
+
+# Temporary
+tmp/
+temp/
+cache/
+*.tmp
