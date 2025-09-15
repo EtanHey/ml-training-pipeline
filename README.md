@@ -43,6 +43,14 @@ python train.py --config configs/default.yaml
 python train.py --model tensorflow --config configs/tensorflow.yaml
 ```
 
+### Real-World Example
+See [Hand Detection Workflow](examples/hand-detection-workflow.md) for a complete end-to-end example of:
+- Data collection with clean frame capture
+- Multi-class classification (hand/arm/not_hand)
+- Training optimization and versioning
+- Live demo implementation
+- Deployment to production
+
 ### Deployment
 
 #### Hugging Face
